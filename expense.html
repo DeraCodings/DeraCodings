@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme" content="red">
+    <title>Expense App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header id="header">
+        <h1>Keep Track Of Your Expense</h1>
+        <small>Be ahead of the rest</small>
+    </header>
+    <main id="main">
+        <fieldset>
+            <legend>
+                <h2>Expense Tracker</h2>
+            </legend>
+            <form action="" id="form">
+                <input type="text" placeholder="What did you spend on..." id="text">
+                <br>
+                <input type="date" name="date" id="date">
+                <input type="number" name="number" id="number">
+                <button type="submit" id="add">Add</button>
+                <div id="error"></div>
+            </form>
+            <button type="submit" id="clear" onclick="clearAll()">Clear List</button>
+        </fieldset>
+        <section id="post">
+            <table id="table">
+                <caption>Your Expenses</caption>
+                <thead>
+                    <tr id="head-row">
+                        <th scope="col" colspan="2">Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Amount</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+
+</html>

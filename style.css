@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+#header {
+    text-align: center;
+    padding: 1em .5em;
+}
+#header small::after, #header small::before {
+    content: '...';
+}
+
+#header h1 {
+    color: rgb(0, 0, 0, 0.9);
+}
+
+#header small {
+    color: rgba(47, 180, 47, 1);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+#main fieldset {
+    padding: 1em 3em;
+}
+
+#main fieldset legend h2 {
+    color: rgb(13, 214, 13);
+}
+
+#main fieldset #text {
+    margin-bottom: 1em;
+    padding-right: 3em;
+    /* max-width: 10em;
+    min-width: fit-content; */
+}
+
+#main fieldset #date {
+    margin-right: .5rem;
+}
+#main fieldset #number {
+    margin-right: .1rem;
+}
+
+#main fieldset #date:focus, #number:focus, #text:focus {
+    outline: #0e0 1px solid;
+}
+
+#main fieldset button {
+    border: none;
+}
+
+#main fieldset #add{
+    background: radial-gradient(circle, rgb(47, 180, 47), rgb(13, 214, 13));
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: outset rgb(47, 180, 47) 1px;
+    color: #fff;
+}
+
+#main fieldset #clear {
+    background: radial-gradient(ellipse, rgb(47, 180, 47), rgb(13, 214, 13));
+    padding: .5em 1em;
+    border-radius: 5px;
+    border: outset rgb(47, 180, 47) 1px;
+    color: #fff;
+}
+
+/* designing the table */
+#post {
+    margin: .5rem 2em;
+}
+
+#table{
+    table-layout: fixed;
+    border: black 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table th {
+    background-color: rgb(13, 214, 13);
+    width: fit-content;
+    letter-spacing: 2px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: lowercase;
+}
+
+#table tbody td {
+    text-align: center;
+    /* border: 1px solid black; */
+    width: fit-content;
+    padding: 1em;
+}
+
+#table tbody tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#table tbody tr:nth-child(even) {
+    background-color: #fff;
+}
+
+#table caption {
+    font-weight: bold;
+    color: rgb(13, 214, 13);
+    margin-bottom: 1em;
+}
+
+#table tbody td button {
+    color: #ffffff;
+    background-color: #777;
+    border-radius: 3px;
+    padding: .3rem;
+    border: none;
+}
+
+input::after{
+    content: '*'
+}
+
+#error {
+    color: red;
+    text-align: center;
+}

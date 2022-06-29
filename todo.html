@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do app</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> -->
+    
+    <script src="app.js" defer type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>MAKE YOUR TO-DO LIST</h1>
+        <small>Keep your tasks organized</small>
+    </header>
+
+    <!-- a to-do app -->
+    <section class="input-field">
+        <form id="form">
+            <textarea name="text" id="text" cols="50" rows="10"></textarea>
+            <br>
+        <!-- <input type="button" value="Add" name="Add"> -->
+            <button type="submit" id="btn">Add Task</button>
+            <div id="error"></div>
+        </form>
+    </section>
+
+    <div id="post"></div>
+
+    <footer>
+        <span>Designed By:</span>
+        <span>Dera Codex</span>
+    </footer>
+</body>
+</html>

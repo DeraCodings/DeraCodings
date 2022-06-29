@@ -2,137 +2,80 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
-button {
-    cursor: pointer;
-}
-
-#header {
+header {
     text-align: center;
-    padding: 1em .5em;
+    margin-top: 2em;
 }
-#header small::after, #header small::before {
+
+small::before, small::after{
     content: '...';
 }
 
-#header h1 {
-    color: rgb(0, 0, 0, 0.9);
+section {
+    margin: 5.5em 5.5em;
+    text-align: center;
 }
 
-#header small {
-    color: rgba(47, 180, 47, 1);
+#text {
+    background-color: #f3d9e3;
+    /* color: silver; */
 }
 
-#main {
+#text:focus {
+    outline: none;
+}
+
+button {
+    background: linear-gradient(45deg, gray, darkgray);
+    border: none;
+    padding: .3em .55em;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: transform 1s;
+}
+button:active {
+    /* transform: scale(1.3); */
+    border: #0c0 1px solid;
+}
+
+#post {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 3rem;
+    gap: 1em;
+    margin: auto;
+}
+#post div > p {
+    margin-bottom: 10px;
 }
 
-#main fieldset {
-    padding: 1em 3em;
-}
-
-#main fieldset legend h2 {
-    color: rgb(13, 214, 13);
-}
-
-#main fieldset #text {
-    margin-bottom: 1em;
-    padding-right: 3em;
-    /* max-width: 10em;
-    min-width: fit-content; */
-}
-
-#main fieldset #date {
-    margin-right: .5rem;
-}
-#main fieldset #number {
-    margin-right: .1rem;
-}
-
-#main fieldset #date:focus, #number:focus, #text:focus {
-    outline: #0e0 1px solid;
-}
-
-#main fieldset button {
-    border: none;
-}
-
-#main fieldset #add{
-    background: radial-gradient(circle, rgb(47, 180, 47), rgb(13, 214, 13));
-    padding: .5em 1em;
-    border-radius: 5px;
-    border: outset rgb(47, 180, 47) 1px;
-    color: #fff;
-}
-
-#main fieldset #clear {
-    background: radial-gradient(ellipse, rgb(47, 180, 47), rgb(13, 214, 13));
-    padding: .5em 1em;
-    border-radius: 5px;
-    border: outset rgb(47, 180, 47) 1px;
-    color: #fff;
-}
-
-/* designing the table */
-#post {
-    margin: .5rem 2em;
-}
-
-#table{
-    table-layout: fixed;
-    border: black 1px solid;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#table th {
-    background-color: rgb(13, 214, 13);
-    width: fit-content;
-    letter-spacing: 2px;
-    text-align: center;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-transform: lowercase;
-}
-
-#table tbody td {
-    text-align: center;
-    /* border: 1px solid black; */
-    width: fit-content;
+#post div {
+    background-color: #e2c8d2;
     padding: 1em;
 }
-
-#table tbody tr:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-#table tbody tr:nth-child(even) {
+/* #post div:nth-child(2) {
     background-color: #fff;
+    padding: 1em;
+} */
+
+
+footer {
+    margin-top: 27em;
+    text-align: right;
 }
 
-#table caption {
-    font-weight: bold;
-    color: rgb(13, 214, 13);
-    margin-bottom: 1em;
+footer > span:nth-child(1){
+    color: #00f;
+}
+footer > span:nth-child(2){
+    color: #f00;
+    margin-right: 1rem;
 }
 
-#table tbody td button {
-    color: #ffffff;
-    background-color: #777;
-    border-radius: 3px;
-    padding: .3rem;
-    border: none;
-}
-
-input::after{
-    content: '*'
-}
-
-#error {
-    color: red;
-    text-align: center;
+footer > span {
+    padding-bottom: 2em;
 }

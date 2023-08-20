@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Chidera Otuonye</h1>
+<h1 align="center">Hey! 👋, I'm Chidera Humphrey</h1>
 <h3 align="center">A frontend developer and technical writer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deracodings&label=Profile%20views&color=0e75b6&style=flat" alt="deracodings" /> </p>
@@ -11,9 +11,9 @@
 
 - 🌱 I'm currently improving my technical writing and `React` skills. 
 
-- 👯 I’m looking to collaborate on **frontend,JavaScript, and technical writing  projects**
+- 👯 I’m looking to collaborate on **frontend, JavaScript, and technical writing  projects**.
 
-- 🤝 I’m looking for help with `Redux` and complex state management 
+- 🤝 I’m looking for help with `Redux` and complex state mmanagement. 
 
 - 👨‍💻 All of my projects are available at [deradev.netlify.app](deradev.netlify.app)
 

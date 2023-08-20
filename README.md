@@ -11,9 +11,10 @@
 
 - 🌱 I'm currently improving my technical writing and `React` skills. 
 
-- 👯 I’m looking to collaborate on **frontend, JavaScript,and technical writing .**
+- 👯 I’m looking to collaborate on 
+--frontend, JavaScript, and technical writing works
 
-- 🤝 I’m looking for help with **Redux in react**
+- 🤝 I’m looking for help with 
 
 - 👨‍💻 All of my projects are available at [deradev.netlify.app](deradev.netlify.app)
 
@@ -28,7 +29,7 @@ Technical writing
 ```
 **
 
-- 📫 How to reach me 👉 [my email] (h.otuonye@yahoo.com)
+- 📫 How to reach me 👉 h.otuonye@yahoo.com
 
 - ⚡ Fun fact **Always be thankful**
 

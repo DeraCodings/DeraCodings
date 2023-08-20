@@ -11,12 +11,9 @@
 
 - 🌱 I'm currently improving my technical writing and `React` skills. 
 
-- 👯 I’m looking to collaborate on 
-1.Frontend projects
-1.JavaScript projects 
-1.Technical writing  projects 
+- 👯 I’m looking to collaborate on **frontend,JavaScript, and technical writing  projects**
 
-- 🤝 I’m looking for help with 
+- 🤝 I’m looking for help with `Redux` and complex state management 
 
 - 👨‍💻 All of my projects are available at [deradev.netlify.app](deradev.netlify.app)
 

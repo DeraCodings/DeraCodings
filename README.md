@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Chidera Otuonye</h1>
-<h3 align="center">A funny frontend developer from West Africa.</h3>
+<h3 align="center">A frontend developer and technical writer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=deracodings&label=Profile%20views&color=0e75b6&style=flat" alt="deracodings" /> </p>
 
@@ -7,21 +7,30 @@
 
 <p align="left"> <a href="https://twitter.com/chideracode" target="blank"><img src="https://img.shields.io/twitter/follow/chideracode?logo=twitter&style=for-the-badge" alt="chideracode" /></a> </p>
 
-- 🔭 I’m currently working on **frontend of a gym website.**
+- 🔭 I'm working on my portfolio.
 
-- 🌱 I’m currently learning **redux**
+- 🌱 I'm currently improving my technical writing and `React` skills. 
 
-- 👯 I’m looking to collaborate on **frontend works and JavaScript works.**
+- 👯 I’m looking to collaborate on **frontend, JavaScript,and technical writing .**
 
 - 🤝 I’m looking for help with **Redux in react**
 
 - 👨‍💻 All of my projects are available at [deradev.netlify.app](deradev.netlify.app)
 
-- 💬 Ask me about **react, javascript, html, css and frontend in general**
+- 💬 Ask me about 
+**
+```
+React
+JavaScript 
+CSS 
+HTML 
+Technical writing 
+```
+**
 
-- 📫 How to reach me **h.otuonye@yahoo.com**
+- 📫 How to reach me 👉 [my email] (h.otuonye@yahoo.com)
 
-- ⚡ Fun fact **I know am funny.**
+- ⚡ Fun fact **Always be thankful**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
